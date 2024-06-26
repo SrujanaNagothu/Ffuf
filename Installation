@@ -1,0 +1,21 @@
+1. Installation on Linux
+
+
+1.1. Prerequisites
+Go (Golang): Make sure you have Go installed. You can install it via your package manager or download it from golang.org.
+
+
+ --> Using Go
+
+ --> Set up Go environment:
+  export PATH=$PATH:/usr/local/go/bin
+  export GOPATH=$HOME/go
+  export PATH=$PATH:$GOPATH/bin
+
+ --> Install Ffuf:
+go install github.com/ffuf/ffuf/v2@latest
+
+--> Verify Installation:
+ffuf -h
+
+
