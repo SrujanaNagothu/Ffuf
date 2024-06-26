@@ -1,0 +1,16 @@
+Introduction :
+ Ffuf (Fuzz Faster U Fool) is a fast and flexible web fuzzing tool used primarily for web application security testing.
+ It helps identify security vulnerabilities, gather information, and test web applications for issues like parameter tampering, file inclusion, and hidden directories.
+Overview of Ffuf
+1. Purpose
+   Web Fuzzing: Automates the process of sending numerous requests to a web server to discover hidden files, directories, parameters, and subdomains.
+   Security Testing: Identifies potential security flaws such as SQL injection points, open endpoints, or unauthorized access paths.
+2. Key Features
+Speed: Uses Go language for high performance, allowing fast fuzzing with numerous threads.
+Flexibility: Supports various payloads, including wordlists, regular expressions, and customizable filters.
+Integration: Compatible with other tools and can be used in pipelines or integrated with other security testing tools.
+3. Common Use Cases
+Directory Discovery: Identifies hidden directories and files on a web server by brute-forcing paths.
+Parameter Discovery: Tests different parameters in GET or POST requests to find vulnerabilities.
+Subdomain Enumeration: Enumerates subdomains using wordlists.
+Content Discovery: Finds files or directories based on common naming conventions.
